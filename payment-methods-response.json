@@ -1,0 +1,28 @@
+{
+  "code": 200,
+  "data": {
+    "clientId": 123,
+    "payments": [
+      {
+        "allowPurchaseWithoutCreditBalance": true,
+        "erpPaymentMethodId": "abc123",
+        "lockNextPaymentMethodUntilBalanceIsReached": false,
+        "name": "Credit Card",
+        "order": 1,
+        "paymentMethodId": 1,
+        "showCreditBalance": true
+      },
+      {
+        "allowPurchaseWithoutCreditBalance": false,
+        "erpPaymentMethodId": "xyz456",
+        "lockNextPaymentMethodUntilBalanceIsReached": true,
+        "name": "PayPal",
+        "order": 2,
+        "paymentMethodId": 2,
+        "showCreditBalance": false
+      }
+    ]
+  },
+  "httpStatus": 200,
+  "ok": true
+}

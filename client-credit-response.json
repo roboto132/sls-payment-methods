@@ -1,0 +1,35 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "Segment": {
+        "segmentId": 123,
+        "segmentName": "Gold"
+      },
+      "available": 500,
+      "clientId": 456,
+      "countryId": "US",
+      "cpgId": "CPG789",
+      "creditLimit": 1000,
+      "currencyId": "USD",
+      "organizationId": "Org123",
+      "spentCredit": 500
+    },
+    {
+      "Segment": {
+        "segmentId": 456,
+        "segmentName": "Silver"
+      },
+      "available": 250,
+      "clientId": 789,
+      "countryId": "UK",
+      "cpgId": "CPG456",
+      "creditLimit": 750,
+      "currencyId": "GBP",
+      "organizationId": "Org456",
+      "spentCredit": 500
+    }
+  ],
+  "httpStatus": 200,
+  "ok": true
+}

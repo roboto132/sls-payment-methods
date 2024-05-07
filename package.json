@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "serverless-pseudo-parameters": "^2.6.1",
+    "serverless-step-functions": "^3.21.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.569.0",
+    "@aws-sdk/client-sfn": "^3.568.0"
+  }
+}
